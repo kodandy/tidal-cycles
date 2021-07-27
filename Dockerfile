@@ -1,5 +1,5 @@
 FROM debian:stable
-MAINTAINER Mauro <mauro@sdf.org>
+MAINTAINER kodandy
 
 ###
 #
