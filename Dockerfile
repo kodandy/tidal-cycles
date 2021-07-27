@@ -56,7 +56,7 @@ COPY ["tidal/helpers.tidal", "$HOME/livecode/helpers.tidal"]
 
 
 RUN cabal update \
-    && cabal install tidal-1.6.1 \
+    && cabal install tidal-1.7.8 \
     && cd $HOME \
     && chown -Rh $USER:$USER -- $HOME
 
